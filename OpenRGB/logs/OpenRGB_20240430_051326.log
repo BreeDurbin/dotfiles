@@ -1,0 +1,44 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20240430_051326
+====================================================================================================
+
+1006  |Info:    Saving detector settings
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    |               Start device detection               |
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    Initializing HID interfaces: Success
+1018  |Info:    ------------------------------------------------------
+1018  |Info:    |             Detecting I2C interfaces               |
+1018  |Info:    ------------------------------------------------------
+1018  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:73BF Subsystem: 1043:04F2
+1018  |Info:    Registering I2C interface: /dev/i2c-1 Device 1022:790B Subsystem: 1849:790B
+1018  |Info:    Registering I2C interface: /dev/i2c-8 Device 1002:73BF Subsystem: 1043:04F2
+1019  |Info:    Registering I2C interface: /dev/i2c-6 Device 1002:73BF Subsystem: 1043:04F2
+1019  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:73BF Subsystem: 1043:04F2
+1019  |Info:    Registering I2C interface: /dev/i2c-2 Device 1022:790B Subsystem: 1849:790B
+1019  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1019  |Info:    Registering I2C interface: /dev/i2c-18 Device 0000:0000 Subsystem: 0000:0000
+1019  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1019  |Info:    Registering I2C interface: /dev/i2c-16 Device 0000:0000 Subsystem: 0000:0000
+1019  |Info:    Registering I2C interface: /dev/i2c-14 Device 1002:164E Subsystem: 1002:164E
+1019  |Info:    Registering I2C interface: /dev/i2c-12 Device 1002:164E Subsystem: 1002:164E
+1019  |Info:    ------------------------------------------------------
+1019  |Info:    |               Detecting I2C devices                |
+1019  |Info:    ------------------------------------------------------
+1582  |Info:    ------------------------------------------------------
+1582  |Info:    |               Detecting I2C PCI devices            |
+1582  |Info:    ------------------------------------------------------
+1583  |Info:    ------------------------------------------------------
+1583  |Info:    |               Detecting HID devices                |
+1583  |Info:    ------------------------------------------------------
+1583  |Info:    ------------------------------------------------------
+1583  |Info:    |            Detecting libusb HID devices            |
+1583  |Info:    ------------------------------------------------------
+1617  |Info:    ------------------------------------------------------
+1617  |Info:    |              Detecting other devices               |
+1617  |Info:    ------------------------------------------------------
+1628  |Info:    ------------------------------------------------------
+1628  |Info:    |                Detection completed                 |
+1628  |Info:    ------------------------------------------------------
+1628  |Dialog:  <h2>WARNING:</h2><p>The OpenRGB udev rules are not installed.</p><p>Most devices will not be available unless running OpenRGB as root.</p><p>If using AppImage, Flatpak, or self-compiled versions of OpenRGB you must install the udev rules manually</p><p>See <a href='https://openrgb.org/udev'>https://openrgb.org/udev</a> to install the udev rules manually</p>
